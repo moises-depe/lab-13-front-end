@@ -1,7 +1,7 @@
 import request from 'superagent';
 
 
-const URL = 'http://localhost:3000';
+const URL = 'https://immense-ravine-52153.herokuapp.com';
 
 export async function signUpUser(email, password) {
     const response = await request
