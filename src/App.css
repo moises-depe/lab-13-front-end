@@ -1,0 +1,22 @@
+a {
+  margin: 5px;
+}
+
+label {
+  display: block
+}
+
+.todo {
+  border: solid 2px black;
+  border-radius: 5px;
+  width: 50%;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.todo:hover {
+  background-color: gold;
+}
+
+.completed {
+  text-decoration: line-through;
+}
